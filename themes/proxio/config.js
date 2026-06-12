@@ -12,7 +12,7 @@ const CONFIG = {
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
   PROXIO_HERO_BUTTON_1_URL:
-    'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
+    'https://note.iglooblog.top/archive', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_URL: 'https://github.com/passwordgloo', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github-mark.svg', // 英雄区按钮2的图标，不需要则留空
@@ -39,15 +39,15 @@ const CONFIG = {
   // 特性区块
   PROXIO_FEATURE_ENABLE: true, // 特性区块开关
   PROXIO_FEATURE_TITLE: '为什么选我',
-  PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
-  PROXIO_FEATURE_TEXT_2: '丰富的案例经验，专业的技术服务，优质的沟通效率',
+  PROXIO_FEATURE_TEXT_1: '我能让你的笔记更好看，项目更好展示',
+  PROXIO_FEATURE_TEXT_2: '基于Markdown语法，多种站点方案部署教程总有一款适合你',
 
   // 特性1
   PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', // fas图标
   PROXIO_FEATURE_1_ICON_IMG_URL: '', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
   PROXIO_FEATURE_1_TITLE_1: '高效工作流程',
   PROXIO_FEATURE_1_TEXT_1:
-    '精简的设计流程确保快速交付，在紧迫的工期下仍能保证品质与细节不打折扣。',
+    'AI时代，搭建基础框架与工作流，然后审阅AI给的答案',
 
   PROXIO_FEATURE_2_ICON_CLASS: 'fa-solid fa-comments',
   PROXIO_FEATURE_2_ICON_IMG_URL: '',
@@ -58,14 +58,14 @@ const CONFIG = {
   PROXIO_FEATURE_3_ICON_IMG_URL: '',
   PROXIO_FEATURE_3_TITLE_1: '细节把控',
   PROXIO_FEATURE_3_TEXT_1:
-    '精益求精雕琢每个元素，确保成品精致统一，令人过目难忘',
+    '每一个元素美化，都经过深思熟虑考量',
 
-  PROXIO_FEATURE_BUTTON_TEXT: '了解更多', // 按钮文字
+  PROXIO_FEATURE_BUTTON_TEXT: '项目详情', // 按钮文字
   PROXIO_FEATURE_BUTTON_URL: 'https://core.iglooblog.top', // 按钮跳转
 
-  // 首页生涯区块
+  // 首页兴趣区块
   PROXIO_CAREER_ENABLE: true, // 区块开关
-  PROXIO_CAREER_TITLE: '生涯',
+  PROXIO_CAREER_TITLE: '兴趣',
   PROXIO_CAREER_TEXT: '以下是我的兴趣爱好',
 
 
@@ -82,9 +82,9 @@ const CONFIG = {
   PROXIO_ABOUT_KEY_2: '最爱水果',
   PROXIO_ABOUT_VAL_2: '西瓜🍉',
   PROXIO_ABOUT_KEY_3: '偶像歌手',
-  PROXIO_ABOUT_VAL_3: '张杰',
+  PROXIO_ABOUT_VAL_3: '张杰💗',
   PROXIO_ABOUT_KEY_4: '累积字数',
-  PROXIO_ABOUT_VAL_4: '10k',
+  PROXIO_ABOUT_VAL_4: '凑字数中',
 
   PROXIO_ABOUT_BUTTON_URL: '/about',
   PROXIO_ABOUT_BUTTON_TEXT: '关于我',
@@ -151,10 +151,10 @@ const CONFIG = {
         {
           title: 'Typora主题',
           href: 'https://github.com/passwordgloo/Typora-foresee-theme'
-        }，
+        },
         {
           title: 'Anki主题',
-          href: 'https://github.com/passwordgloo/anji-foresee'
+          href: 'https://github.com/passwordgloo/anki-foresee'
         }
       ]
     }
