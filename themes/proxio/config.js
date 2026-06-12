@@ -97,7 +97,7 @@ const CONFIG = {
     'Mobile App Design',
   ],
 
-  PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  PROXIO_FOOTER_SLOGAN: '光芒璀璨的背后是无数个幽静的深夜',
 
   // 页脚三列菜单组
   // 页脚菜单
@@ -172,9 +172,5 @@ const CONFIG = {
   PROXIO_404_TITLE: '我们似乎找不到您要找的页面。',
   PROXIO_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
   PROXIO_404_BACK: '回到主页',
-
-  PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  PROXIO_POST_REDIRECT_URL: 'https://note.iglooblog.top', // 重定向域名
-  PROXIO_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_PROXIO_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
